@@ -1,0 +1,25 @@
+import sys
+
+'''def geral(fn1, fn2, foper):
+    if (oper == "+"):
+        return int(fn1) +  int(fn2)
+    elif (oper == "-"):
+        return int(fn1) -  int(fn2)
+n1   = sys.argv[1]
+n2   = sys.argv[2]
+oper = sys.argv[3]
+print (geral(n1, n2, oper))
+
+for i in sys.argv:
+    print(i)
+'''
+
+arquivo = sys.argv[1]
+with open(arquivo,'r') as a:
+    linhas = a.read()
+
+print (linhas)
+
+
+
+
